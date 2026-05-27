@@ -1,0 +1,11 @@
+let mobile = {
+
+    brand: "Samsung",
+    price: 20000,
+    color: "Black"
+}
+
+for(let key in mobile){
+
+    console.log(key + ": " + mobile[key])
+}
