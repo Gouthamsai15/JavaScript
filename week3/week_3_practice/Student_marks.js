@@ -1,13 +1,15 @@
 let student = {
     name: "Goutham",
-    marks: [90,65,89]
-}
-let total = 0
+    marks: [90, 65, 89]
+};
 
-for(let i = 0; i < student.marks.length; i++){
-    total = total + student.marks[i]
-}
-let average = total / student.marks.length
+let total = 0;
 
-console.log("Total Marks: " + total)
-console.log("Average Marks: " + average)
+student.marks.forEach(mark => {
+    total = total + mark;
+});
+
+let average = total / student.marks.length;
+
+console.log("Total Marks: " + total);
+console.log("Average Marks: " + average);

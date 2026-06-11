@@ -7,17 +7,13 @@ let questions = [
         question: "5 + 5 ?",
         answer: 10
     }
-]
-
-let score = 0
-
-let userAnswers = [4, 10]
-
-for (let i = 0; i < questions.length; i++) {
-
-    if (userAnswers[i] == questions[i].answer) {
-        score = score + 1
+];
+let userAnswers = [4, 10];
+let score = 0;
+questions.forEach((question, index) => {
+    if (userAnswers[index] === question.answer) {
+        score++;
     }
-}
 
-console.log("Score:", score)
+});
+console.log("Score:", score);
