@@ -1,15 +1,10 @@
-let nums = [1, 2, 1, 3, 2, 1]
-
-let count = {}
-
-for (let i = 0; i < nums.length; i++) {
-    let num = nums[i]
-
-    if (count[num] == undefined) {
-        count[num] = 1
+let nums = [1, 2, 1, 3, 2, 1];
+let count = {};
+nums.forEach(num => {
+    if (count[num] === undefined) {
+        count[num] = 1;
     } else {
-        count[num] = count[num] + 1
+        count[num] = count[num] + 1;
     }
-}
-
-console.log(count)
+});
+console.log(count);

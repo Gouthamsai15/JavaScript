@@ -1,11 +1,8 @@
-let fruits = ["apple", "banana", "mango"]
+let fruits = ["apple", "banana", "mango"];
+let search = "mango";
 
-let search = "mango"
-
-for(let i = 0; i < fruits.length; i++){
-
-    if(fruits[i] == search){
-
-        console.log("Found at position " + i )
+fruits.forEach((fruit, index) => {
+    if(fruit == search){
+        console.log("Found at position " + index);
     }
-}
+});
