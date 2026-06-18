@@ -1,12 +1,8 @@
-let todo = []
-
-todo.push("Study Javascript")
-todo.push("Leetcode problems")
-todo.push("Python")
-
-
-console.log(todo)
-
-todo.splice(1,1)
-
-console.log(todo)
+let todo = [];
+const addTask = task => {
+    todo.push(task);
+};
+addTask("Study Javascript");
+addTask("Leetcode problems");
+addTask("Python");
+console.log(`${todo}`);

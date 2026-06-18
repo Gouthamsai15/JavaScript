@@ -1,12 +1,11 @@
 let employee = {
-
     name: "Rahul",
     salary: 50000,
     department: "IT"
-}
-
-console.log(employee.name)
-
-employee.salary = 60000
-
-console.log(employee)
+};
+const displayEmployee = emp => {
+    console.log(`${emp.name}`);
+};
+displayEmployee(employee)
+employee.salary = 60000;
+console.log(`${JSON.stringify(employee)}`);

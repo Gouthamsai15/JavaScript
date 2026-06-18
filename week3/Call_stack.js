@@ -1,10 +1,8 @@
-function one(){
-    console.log("One")
-}
-
-function two(){
-    one()
-    console.log("Two")
-}
-
-two()
+const one = () => {
+    console.log(`One`);
+};
+const two = () => {
+    one();
+    console.log(`Two`);
+};
+two();
