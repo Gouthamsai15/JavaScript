@@ -5,4 +5,4 @@ const addTask = task => {
 addTask("Study Javascript");
 addTask("Leetcode problems");
 addTask("Python");
-console.log(todo);
+console.log(`${todo}`);

@@ -7,4 +7,4 @@ nums.forEach(num => {
         count[num] = count[num] + 1;
     }
 });
-console.log(count);
+console.log(`${JSON.stringify(count)}`);

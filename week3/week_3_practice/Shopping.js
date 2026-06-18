@@ -14,4 +14,4 @@ let total = 0;
 cart.forEach(product => {
     total = total + (product.price * product.quantity);
 });
-console.log(total);
+console.log(`${total}`);

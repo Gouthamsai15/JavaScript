@@ -1,5 +1,4 @@
 // Creating Object
-
 let student = {
     name: "Goutham",
     age: 20,
@@ -7,20 +6,16 @@ let student = {
 };
 
 // Print whole object
-
-console.log(student)
+console.log(student);
 
 // Access Object Properties
-
-console.log(student.name)
-console.log(student.age)
+console.log(`${student.name}`);
+console.log(`${student.age}`);
 
 // Update Property
-
-student.age = 21
-console.log(student)
+student.age = 21;
+console.log(student);
 
 // Add New Property
-
-student.city = "Bangalore"
-console.log(student)
+student.city = "Bangalore";
+console.log(student);

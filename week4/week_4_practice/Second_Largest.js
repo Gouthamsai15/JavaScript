@@ -9,6 +9,6 @@ const findSecondLargest = nums => {
             secondBiggest = num;
         }
     });
-    console.log(secondBiggest);
+    console.log(`${secondBiggest}`);
 };
 findSecondLargest([10, 20, 50, 80, 60]);

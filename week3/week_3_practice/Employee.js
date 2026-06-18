@@ -3,13 +3,9 @@ let employee = {
     salary: 50000,
     department: "IT"
 };
-
 const displayEmployee = emp => {
-    console.log(emp.name);
+    console.log(`${emp.name}`);
 };
-
-displayEmployee(employee);
-
+displayEmployee(employee)
 employee.salary = 60000;
-
-console.log(employee);
+console.log(`${JSON.stringify(employee)}`);

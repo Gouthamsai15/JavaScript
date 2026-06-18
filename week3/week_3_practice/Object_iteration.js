@@ -3,9 +3,7 @@ let mobile = {
     price: 20000,
     color: "Black"
 };
-
 const displayProperty = key => {
-    console.log(key + ": " + mobile[key]);
+    console.log(`${key}: ${mobile[key]}`);
 };
-
 Object.keys(mobile).forEach(displayProperty);
